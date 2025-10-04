@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bgh1m5tkxpokq"]
+
+[ext_resource type="Texture2D" uid="uid://bf0fg2lmayt6" path="res://assets/Doloris.PNG" id="1_h2yge"]
+[ext_resource type="Texture2D" uid="uid://cpprmyqt45u74" path="res://assets/Oblivionis.PNG" id="2_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://brmd0xe4y1slh" path="res://初华.tscn" id="3_lquwl"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Sprite1" type="Sprite2D" parent="."]
+position = Vector2(-1076, 25)
+texture = ExtResource("1_h2yge")
+
+[node name="Sprite2" type="Sprite2D" parent="."]
+position = Vector2(1427, -6)
+texture = ExtResource("2_1bvp3")
+
+[node name="Node2D" parent="." instance=ExtResource("3_lquwl")]
+
+[node name="Node2D2" parent="." instance=ExtResource("3_lquwl")]
+position = Vector2(-569, -871)
